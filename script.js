@@ -7,4 +7,5 @@ btn.addEventListener("click", () => {
   newH1.innerHTML = "Entered Metaverse";
 
   p.parentNode.replaceChild(newH1, p);
+p.id = "status"
 });
